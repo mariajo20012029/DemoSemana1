@@ -3,6 +3,7 @@ package com.example.demosemana1;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.text.util.Linkify;
 import android.view.Menu;
 import android.widget.TextView;
 
@@ -19,6 +20,7 @@ public class ShowSearchQuery extends Activity {
 		if (queryText != null){
 			TextView txtMsg = (TextView) findViewById(R.id.txtMsg);
 			txtMsg.setText(queryText);
+			Linkify.addLinks(txtMsg, Linkify.ALL);
 		}
 	}
 
