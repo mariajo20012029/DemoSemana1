@@ -8,5 +8,10 @@
     <string name="btn_list">Listado</string>   
     <string name="btn_open_activity">Abrir actividad</string>
     <string name="title_activity_show_search_query">ShowSearchQuery</string>
-
+    
+    <string name="txt_checkbox">te gusta Android?</string>
+    <string name="txt_radio_0">Opcion A</string>
+    <string name="txt_radio_1">Opcion B</string>
+    <string name="txt_radio_2">Opcion C</string>
+        
 </resources>
