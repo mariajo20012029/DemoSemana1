@@ -17,15 +17,19 @@
         <activity
             android:name="com.example.demosemana1.MainActivity"
             android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            
         </activity>
         <activity
             android:name="com.example.demosemana1.ShowSearchQuery"
             android:label="@string/title_activity_show_search_query" >
+        </activity>
+        <activity
+            android:name="com.example.demosemana1.EmailActivity"
+            android:label="@string/title_activity_email_list_activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
